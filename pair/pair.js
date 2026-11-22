@@ -32,7 +32,7 @@ function showPairingLink() {
 
   const links = window.trackypadyLinks;
   const appStoreReady = /^https:\/\/apps\.apple\.com\/(?:[a-z]{2}\/)?app\/(?:[\w-]+\/)?id[0-9]+$/.test(links.appStoreURL || "");
-  const betaReady = /^https:\/\/testflight\.apple\.com\/j\/[A-Za-z0-9]{8}$/.test(links.testFlightURL || "");
+  const betaReady = /^https:\/\/testflight\.apple\.com\/(?:j|join)\/[A-Za-z0-9]{8}$/.test(links.testFlightURL || "");
   const downloadURL = appStoreReady ? links.appStoreURL : links.testFlightURL;
   if ((!appStoreReady && !betaReady) || new URL(links.websiteURL).hostname.endsWith(".example.com")) {
     status.textContent = "Downloads are being set up. If you already have the app, open it to pair.";

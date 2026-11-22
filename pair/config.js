@@ -4,5 +4,5 @@ window.trackypadyLinks = Object.freeze({
   websiteURL: "https://deepinteractionlab.github.io/trackypady/",
   // Set to the public Apple listing when the renamed app is available.
   appStoreURL: "",
-  testFlightURL: ""
+  testFlightURL: "https://testflight.apple.com/join/EB1YQ63W"
 });
