@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Trackypady Bridge Local</string>
+	<key>CFBundleExecutable</key>
+	<string>TrackypadyBridge</string>
+	<key>CFBundleIconFile</key>
+	<string>Trackypady</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.example.trackypady.local.bridge</string>
+	<key>CFBundleName</key>
+	<string>Trackypady Bridge Local</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Trackypady Bridge needs Bluetooth to pair and connect with the Trackypady app on your iPhone.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_trackypady._tcp</string>
+	</array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect your paired iPhone and Mac over the local network when you choose Wi-Fi in Trackypady Bridge.</string>
+	<key>TrackypadyBuildChannel</key>
+	<string>local-public-source</string>
+</dict>
+</plist>
