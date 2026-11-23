@@ -1,0 +1,20 @@
+{
+  "presets": { "idle": "Idle.json", "dictation": "Dictation.json", "sleep": "Sleep.json" },
+  "background": { "red": 0.97, "green": 0.96, "blue": 0.93 },
+  "ink": { "red": 0.15, "green": 0.20, "blue": 0.19 },
+  "positions": {
+    "upperThird": { "x": 0.5, "y": 0.16666666666666666, "heightFraction": 0.3333333333333333, "horizontalPadding": 32, "verticalPadding": 16 }
+  },
+  "defaultPosition": "upperThird",
+  "animations": {
+    "idle": { "position": "upperThird" },
+    "dictation": { "position": "upperThird" },
+    "recordingError": { "position": "upperThird" },
+    "steer": { "position": "upperThird" },
+    "queue": { "position": "upperThird" },
+    "stopLeft": { "position": "upperThird" },
+    "stopRight": { "position": "upperThird" },
+    "select": { "position": "upperThird" },
+    "discard": { "position": "upperThird" }
+  }
+}

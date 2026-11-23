@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+        AA1100000000000000000001 = {isa = PBXBuildFile; fileRef = AA1100000000000000000002; };
+		AB00000000000000000000001 /* GestureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB00000000000000000000002; };
+		A00000000000000000000018 /* TrackypadyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* TrackypadyApp.swift */; };
+		A00000000000000000000024 /* TouchLink in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000022 /* TouchLink */; };
+		B00000000000000000000001 /* TrackypadyHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002; };
+		C00000000000000000000001 /* TouchPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00000000000000000000002; };
+		D00000000000000000000001 /* ThreeFingerPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00000000000000000000002; };
+		D10000000000000000000001 /* GestureGuideIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000002; };
+		B00000000000000000000003 /* Haptics in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004; };
+		E00000000000000000000001 /* CharacterKit in Frameworks */ = {isa = PBXBuildFile; productRef = E00000000000000000000002 /* CharacterKit */; };
+		F00000000000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000011 /* Assets.xcassets */; };
+		F00000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F00000000000000000000012 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        AA1100000000000000000002 = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/Licenses; sourceTree = SOURCE_ROOT; };
+        BC0000000000000000000001 /* Version.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Version.xcconfig; sourceTree = SOURCE_ROOT; };
+		AB00000000000000000000002 /* GestureDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemoView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* Trackypady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackypady.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000014 /* TrackypadyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackypadyApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* TrackypadyHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackypadyHaptics.swift; sourceTree = "<group>"; };
+		C00000000000000000000002 /* TouchPhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPhoneModel.swift; sourceTree = "<group>"; };
+		D00000000000000000000002 /* ThreeFingerPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFingerPad.swift; sourceTree = "<group>"; };
+		D10000000000000000000002 /* GestureGuideIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/TrackypadyBridge/GestureGuideIllustration.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* Haptics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/Haptics; sourceTree = "<group>"; };
+		F00000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		F00000000000000000000012 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00000000000000000000001 /* CharacterKit in Frameworks */,
+				A00000000000000000000024 /* TouchLink in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				BC0000000000000000000001 /* Version.xcconfig */,
+				A00000000000000000000008 /* Sources */,
+				F00000000000000000000011 /* Assets.xcassets */,
+				F00000000000000000000012 /* PrivacyInfo.xcprivacy */,
+				B00000000000000000000004 /* Haptics */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000009 /* Trackypady.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000008 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000014 /* TrackypadyApp.swift */,
+				AB00000000000000000000002 /* GestureDemoView.swift */,
+				B00000000000000000000002 /* TrackypadyHaptics.swift */,
+				C00000000000000000000002 /* TouchPhoneModel.swift */,
+				D00000000000000000000002 /* ThreeFingerPad.swift */,
+				D10000000000000000000002 /* GestureGuideIllustration.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* Trackypady */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000010 /* Build configuration list for PBXNativeTarget "Trackypady" */;
+			buildPhases = (
+				A00000000000000000000011 /* Sources */,
+				A00000000000000000000012 /* Frameworks */,
+				A00000000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackypady;
+			packageProductDependencies = (
+				E00000000000000000000002 /* CharacterKit */,
+				A00000000000000000000022 /* TouchLink */,
+			);
+			productName = Trackypady;
+			productReference = A00000000000000000000009 /* Trackypady.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "Trackypady" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			packageReferences = (
+				A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* Trackypady */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00000000000000000000001 /* Assets.xcassets in Resources */,
+				F00000000000000000000002 /* PrivacyInfo.xcprivacy in Resources */,
+                AA1100000000000000000001 /* Licenses */,
+				B00000000000000000000003 /* Haptics in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000018 /* TrackypadyApp.swift in Sources */,
+				AB00000000000000000000001 /* GestureDemoView.swift in Sources */,
+				B00000000000000000000001 /* TrackypadyHaptics.swift in Sources */,
+				C00000000000000000000001 /* TouchPhoneModel.swift in Sources */,
+				D00000000000000000000001 /* ThreeFingerPad.swift in Sources */,
+				D10000000000000000000001 /* GestureGuideIllustration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+            baseConfigurationReference = BC0000000000000000000001 /* Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+                ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.trackypady.local.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+            baseConfigurationReference = BC0000000000000000000001 /* Version.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+                ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.trackypady.local.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "Trackypady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000006 /* Debug */,
+				A00000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000010 /* Build configuration list for PBXNativeTarget "Trackypady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000016 /* Debug */,
+				A00000000000000000000017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000022 /* TouchLink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */;
+			productName = TouchLink;
+		};
+		E00000000000000000000002 /* CharacterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference ".." */;
+			productName = CharacterKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}

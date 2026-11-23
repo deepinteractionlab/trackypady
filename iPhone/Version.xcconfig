@@ -1,0 +1,3 @@
+// Independent local development build; not an official release number.
+MARKETING_VERSION = 0.1.0
+CURRENT_PROJECT_VERSION = 1

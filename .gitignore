@@ -1,0 +1,15 @@
+.build/
+Build/
+.DS_Store
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+*.p12
+*.pfx
+*.mobileprovision
+.env
+.env.*
+*.log
+__pycache__/
+*.pyc
