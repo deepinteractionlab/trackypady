@@ -3,6 +3,7 @@
 An iPhone gesture companion for Codex on your Mac.
 
 - [Mac setup and download](https://deepinteractionlab.github.io/trackypady/)
+- [iPhone beta on TestFlight](https://testflight.apple.com/join/EB1YQ63W)
 - [Support](https://deepinteractionlab.github.io/trackypady/support/)
 - [Privacy](https://deepinteractionlab.github.io/trackypady/privacy/)
 - [Bridge releases](https://github.com/deepinteractionlab/trackypady/releases)
